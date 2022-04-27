@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Untitled</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+	<nav>
+		<div class="nav-logo-side">
+			<h1 class="logo">Collins</h1>
+		</div>
+		<div class="nav-links-side">
+			<ul class="link">
+				<li class="about"><a class="about" href="./index.html">Home</a></li>
+				<li class="about"><a class="about" href="#biography">Biography</a></li>
+				<li class="about"><a class="about" href="#clients">Clients</a></li>
+				<li class="about"><a class="about" href="#contact">Contact</a></li>
+			</ul>
+			<div class="burger">
+				<span></span>
+				<span></span>
+				<span></span>
+
+			</div>
+
+		</div>
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="hero">
+		<div class="hero-left">
+			<h1 class="heading1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h1>
+			<p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officiis sint dolorem, quo
+				facere minus eos facilis nam est.</p>
+			<p class="text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam pariatur, beatae sequi
+				sit expedita quae possimus consectetur dolorum dolor officiis ullam iusto, atque quibusdam accusamus
+				tempore, eos eaque repudiandae quia.</p>
+			<button class="btn1">Read more</button>
+		</div>
+		<div id='container'>
+			<canvas id="canvas3d"></canvas>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="module">
+		import { Application } from './runtime.js';
+		const canvas = document.getElementById('canvas3d');
+		const app = new Application(canvas);
+		app.load('./scene1.spline');
+	</script>
+	<script src="app.js"></script>
+</body>
+
+</html>
